@@ -1,0 +1,47 @@
+.logo_top{
+	height: 45px;
+}
+.info_header{
+	font-size: 18pt;
+	color:#fff;
+
+}
+.right{
+	text-align: right !important;
+}
+.cien{
+	width: 100%;
+}
+.icono{
+	font-size: 20pt !important;
+	margin-left: 10px;
+}
+.icono:hover{
+	font-size: 23pt !important;
+	color:red;
+	cursor: pointer;
+}
+.form-actions {
+    display: block !important;
+    background-color: #F5F5F5 !important;
+    border-top: 1px solid #E5E5E5 !important;
+    margin-bottom:5px !important;
+    margin-top: 5px !important;
+    padding: 5px 5px 5px !important;
+}
+.content_table{
+	height: 60vh;
+	overflow: hidden;
+	overflow: scroll;
+}
+.inputTable{
+	width: 60px !important;
+}
+.modificar{
+	background-color: #ff000021 !important;
+}
+@media only screen and (max-width: 991px){
+	.cel_cien{
+		width: 100%;
+	}
+}
