@@ -107,8 +107,14 @@
 				      data: e
 				    }
 				});
-				$scope.project = "";
-				swal("BUEN TRABAJO", "SU PROYECTO A SIDO REGISTRADO EXITOSAMENTE", "success");
+				
+				
+				var titulo = "BUEN TRABAJO";
+			   	var msg = "SU PROYECTO A SIDO REGISTRADO EXITOSAMENTE";
+			   	var tipo = "success";
+				TraerOTS(titulo,msg,tipo)
+				document.getElementById("miForm1").reset();
+				document.getElementById("miForm2").reset();
 				
 			}
 			
